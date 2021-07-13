@@ -1,3 +1,8 @@
-article > header > {
-    background-color: blueviolet;
+article > header > div::before{
+    
+content: url(/imagens/imagens.dos.videos/bg_video.png);
+position: absolute;
+background-image: url(/imagens/imagens.dos.videos/bg_video.png);
+display: inline-block;
 }
+
