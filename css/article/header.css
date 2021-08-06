@@ -1,8 +1,30 @@
-article > header > div::before{
+
+article > header{
+    width: 1349px;
+}
+article > header > div{
+    position: relative;
+    width: 1349px;
+    height: 1080px;
     
-content: url(/imagens/imagens.dos.videos/bg_video.png);
-position: absolute;
-background-image: url(/imagens/imagens.dos.videos/bg_video.png);
-display: inline-block;
+}
+article > header > div::before{
+  content: "";
+  background-image: url(/imagens/imagens.dos.videos/bg_video.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 1349px;
+  height: 760px;
+  
+  display: block;
+  
+}
+article > header > div > video{
+  position:static;
+  align-items: center;
+  justify-content: center;
+  width: 1349px;
+  height: 760px;
 }
 

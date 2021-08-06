@@ -49,3 +49,7 @@ table {
 a{
 	text-decoration: none;
 }
+video{
+	width: 0px;
+	height: 0px;
+}
