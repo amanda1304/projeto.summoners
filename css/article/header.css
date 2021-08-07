@@ -1,12 +1,10 @@
 
 article > header{
-    width: 1349px;
+    width: 100%;
 }
 article > header > div{
     position: relative;
-    width: 1349px;
-    height: 1080px;
-    
+    height: 1080px; 
 }
 article > header > div::before{
   content: "";
@@ -14,17 +12,20 @@ article > header > div::before{
   background-size: cover;
   background-position: center;
   position: absolute;
-  width: 1349px;
-  height: 760px;
-  
+  width: 1345px;
+  height: 70%;
   display: block;
-  
 }
 article > header > div > video{
   position:static;
   align-items: center;
   justify-content: center;
-  width: 1349px;
-  height: 760px;
+  width: 1345px;
+  height: 70%;
 }
-
+article > header > div > span{
+  display: inline-block;
+  margin-top: 1.5em;
+  right: 5%;
+  position: fixed; 
+}
