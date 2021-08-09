@@ -23,6 +23,9 @@ header > #painel > li > a > span{
     color: #686868;
     margin-right: 3em;
 }
+#painel li a span:hover{
+    color: rgba(3, 3, 3, 0.384);;
+}
 header > ul#painel{
     display: flex;
     justify-content: space-between;
