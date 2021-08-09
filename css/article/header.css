@@ -1,9 +1,6 @@
-
-article > header{
-    width: 100%;
-}
 article > header > div{
     position: relative;
+    width: 1345px;
     height: 1080px; 
 }
 article > header > div::before{
@@ -12,7 +9,7 @@ article > header > div::before{
   background-size: cover;
   background-position: center;
   position: absolute;
-  width: 1345px;
+  width: 100%;
   height: 70%;
   display: block;
 }
@@ -21,7 +18,7 @@ article > header > div > video{
   align-items: center;
   justify-content: center;
   width: 1345px;
-  height: 70%;
+  height: auto;
 }
 article > header > div > span{
   display: inline-block;
