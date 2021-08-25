@@ -24,7 +24,8 @@ header > #painel > li > a > span{
     margin-right: 3em;
 }
 #painel li a span:hover{
-    color: rgba(3, 3, 3, 0.384);;
+    color: rgba(3, 3, 3, 0.384);
+    font-size: 1.6rem;
 }
 header > ul#painel{
     display: flex;
